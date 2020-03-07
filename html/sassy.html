@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body class="bg-secondary">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-5">
+        <div class="container">
+          <a class="navbar-brand font-weight-bold " href="shop.html"><img src="../pic/logo1.png" alt=""></a>
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link text-warning font-weight-bold" href="shop.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-warning font-weight-bold" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-warning font-weight-bold" href="contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+    </nav>
+    <nav class="navbar navbar-expand-sm navbar-light mb-3" id="secNavBar">
+        <div class="container d-flex justify-content-cent­er">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-dark h3" href="shop.html">Bookmark</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-dark h3" href="keyholder.html">Keyholder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold text-warning h3" href="sale.html">Sale</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class = "media">
+            <img src="../pic/gallery-item5.jpg">
+            <div class = "media-body mx-3">
+                <div style="margin: 50px;"></div>
+                <h5 class="h3 font-weight-bold">Sassy</h5>
+                <div style="margin: 25px;"></div>
+                <p>“Go to the direction of your dreams. And bring Brasomon’s luggage tag with you."</p>
+                <p>$20</p>
+                <hr>
+                <div style="margin: 50px;"></div>
+                <div class="btn-group">
+                    <button class="btn-outline-warning bg-dark border rounded btn mx-2" type="button" data-toggle="modal" href="#myModalSassy">Add To Cart</button>
+                    <div class="dropdown">
+                        <button class="btn-outline-warning bg-dark border rounded dropdown-toggle btn" type="button" data-toggle="dropdown">
+                            Quantity
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">1</a>
+                            <a class="dropdown-item" href="#">2</a>
+                            <a class="dropdown-item" href="#">3</a>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div id="myModalSassy" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="h5 text-success font-weight-bold">1 item(s) has been added to your cart.</h5>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body d-inline-block">
+              <img src="../pic/gallery-item5.jpg" class="image-fluid float-left" id="leather-tags" alt="">
+              <h5 class="h5 float-right pr-5 pl-0 mt-5">Sassy Leather Cord</h5>
+              <p class="lead float-left pr-5 pl-2 text-left mt-3">Quantity: 1</p>
+              <p class="lead float-left pr-5 pl-2 text-left mt-3 text-primary font-weight-bold">$20</p>
+            </div>
+            <div class="modal-footer">
+                <a href="../html/payment.html" type="button" class="btn btn-default">Pay Bill</a>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+      
+        </div>
+    </div>
+    <footer class="page-footer font-small bg-dark mt-5">
+        <div class="footer-copyright text-center py-3">
+            <a href="https://www.instagram.com/krissia_lu/?hl=en"><img src="../img/instagram-48.png" alt=""></a>
+            <a href="https://twitter.com/KeiRodelas"><img src="../img/twitter-48.png" alt=""></a>
+            <a href="https://www.facebook.com/krissiaflor.rivadeniera"><img src="../img/facebook-48.png" alt=""></a>
+            <p class="text-light">© 2020 Copyright:</p>
+        </div>
+    </footer>
+    <script src="../js/jquery-3.3.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
